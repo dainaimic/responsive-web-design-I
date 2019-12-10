@@ -1,3 +1,316 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+html {
+	max-width: 98%;
+	padding-left: 250px;
+	padding-right: 200px;
+}
+
+
+
+/* Navagation */
+
+nav {
+	margin: 30px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	font-family: auto;
+
+}
+
+.img1 {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	left: 15px;
+	bottom: 58px;
+}
+
+/* Content */
+
+.info {
+	position: relative;
+	bottom: 125px;
+}
+
+.container {
+	position: relative;
+	top: 110px;
+	line-height: 345%;
+	right: 58px;
+}
+
+
+ .oneh {
+	position: relative;
+	left: 100px;
+	font-size: 80px;
+	
+}
+
+.twoh {
+	position: relative;
+	left: 200px;
+	font-size: 80px;
+}
+
+.threeh {
+	position: relative;
+	left: 140px;
+	font-size: 80px;
+
+}
+#start {
+	display: inline;
+	position: relative;
+	left: 170px;
+	width: 150px;
+	height: 60px;
+	padding-left: 35px;
+	padding-right: 35px;
+	box-sizing: content-box;
+	border: 1px solid black
+	
+	
+}
+
+div.logo2 {
+	display: flex;
+	position: relative;
+	left: 510px;
+	bottom: 225px;
+}
+
+.container-one {
+	display: flex;
+	justify-content: row;
+	width: 100%;
+}
+
+
+.container-one .p1 {
+	display: flex;
+	justify-content: column;
+	position: relative;
+	top: 30px;
+	right: 60px;
+	
+	
+}
+
+.container-one .p2 {
+	display: flex;
+	justify-content:column;
+	position: relative;
+	right: 0px;
+	top: 29px;
+}
+
+.contain-one .p2, .h42 {
+	display:flex;
+	position: relative;
+	left: 40px;
+}
+
+.middle-img {
+	position: relative;
+	top: 60px;
+}
+
+
+
+.container-five{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 90px;
+}
+
+.container-five .p3 {
+	position: relative;
+	top: 30px;
+	right: 55px;
+
+	 
+}
+
+.container-five .p4 {
+	position: relative;
+	top: 30px;
+	right: 54px;
+
+	 
+}
+
+.container-five .p5 {
+	position: relative;
+	top: 30px;
+	right: 43px;
+
+	 
+}
+
+.hr1 {
+    position: relative;
+    top: 150px;
+}
+
+/* Footer */
+
+.last {
+	position: relative;
+	top: 155px;
+}
+
+address {
+	position: relative;
+	top: 2px;
+
+}
+
+div.num {
+	position: relative;
+	top: 10px;
+}
+
+footer a{
+	display: flex;
+	position: relative;
+	top: 20px;
+}
+
+
+.copyR{
+	position: relative;
+	top: 215px;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+    nav a {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+        right: 62px;
+    }
+
+    .img1 {
+        position: relative;
+        left: 390px;
+        bottom: 80px;
+    }
+
+    .bigwork {
+        position: relative;
+        right: 30px;
+    }
+
+    .bigwork h1{
+        font-size: 70px;
+    }
+
+    .logo2 {
+        position: relative;
+        right: 152px;
+    }
+
+    hr {
+        width: 215%;
+
+    }
+
+    .info .container-one {
+        width: 220%;
+    }
+
+    .middle-img {
+        width: 217%;
+    }
+
+    .container-two {
+        width: 231%;
+        position: relative;
+        bottom: 135px;
+    }
+
+    .container-3 {
+        position: relative;
+        bottom: 125px;
+    }
+    
+    .newcopy {
+        position: relative;
+        top: 60px;
+        text-align: center;
+        left: 250px;
+    }
+    
+}
+    
 
