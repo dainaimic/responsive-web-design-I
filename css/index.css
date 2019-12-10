@@ -312,5 +312,160 @@ footer a{
     }
     
 }
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+    }
+
+    nav a{
+        left: 25px;
+        top: 30px;
+
+    }
+
+    nav a::before {
+        content: "";
+        display: block;
+        width: 400px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        bottom: 40px;
+        right: -200px;
+
+    }
+
+    nav a::after {
+        content: "";
+        display: block;
+        width: 400px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        top: 69px;
+        right: -200px;
+
+    }
+    
+    
+    .logo2 {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 300px;
+        right: 235px;
+        
+        
+    }
+
+}
+
+.bigwork {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    right: 78px;
+    bottom: 100px;
+    font-size: 12px;
+}
+
+#start{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 650%;
+    height: 42%;
+    right: 700px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+
+hr {
+    position: relative;
+    width: 900%;
+    top: 20px;
+    right: 85px;
+}
+
+.info .container-one {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 140px;
+    width: 900%;
+    right: 128px;
+}
+.info  h4{
+    position: relative;
+    left: 42px;
+    top: 9px; 
+}
+
+.info .container-one p{
+    position: relative;
+    left: 40px;
+    top: 4%;
+}
+
+.middle-img{
+    width: 920%;
+    position: relative;
+    right: 90px;
+    
+}
+
+.hr1 {
+    position: relative;
+    top:300px;
+}
+
+
+.container-two .container-five{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 220px;
+    width: 400%;
+    right: 90px;
+}
+
+.container-two .container-five p{
+    position: relative;
+    left: 1px;
+    top: 5%;
+}
+
+.container-two .container-five h4{
+    position: relative;
+    top: 15px;
+}
+
+.container-3 .last{
+    width: 900%;
+    position: relative;
+    top: 435px;
+    right: 90px;
+}
+
+.newcopy h6{
+    position: relative;
+    right: 800%;
+    width: 900%;
+    
+    top: 290px;
+    
+}
+
+
+
     
 
